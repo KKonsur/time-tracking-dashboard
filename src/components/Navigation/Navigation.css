@@ -1,0 +1,40 @@
+.navigation {
+   height: 35%;
+}
+
+.navigation a {
+   color: hsl(235, 45%, 61%);
+   text-decoration: none;
+   transition: 0.2s;
+}
+
+.navigation a:hover {
+   color: hsl(236, 100%, 87%);
+}
+
+.active {
+   color: hsl(236, 100%, 87%) !important;
+}
+
+.navigation ul {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   height: 100%;
+   margin-left: 2vw;
+}
+
+.navigation li {
+   list-style: none;
+}
+
+@media (max-width: 800px) {
+   .navigation ul {
+      flex-direction: row;
+      align-items: center;
+   }
+
+   .navigation {
+      padding: 30px 0;
+   }
+}
