@@ -4,7 +4,7 @@ import { Navigation } from '../Navigation/Navigation'
 import img from '../../images/image-jeremy.png'
 
 export const ProfileCard = () => (
-   <div className='profile-card'>
+   <section className='profile-card'>
       <div className="profile-card__profile">
          <img src={img} alt="" />
          <div>
@@ -13,6 +13,6 @@ export const ProfileCard = () => (
          </div>
       </div>
       <Navigation />
-   </div>
+   </section>
 )
 
