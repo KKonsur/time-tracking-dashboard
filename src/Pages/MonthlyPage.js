@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card } from '../components/UI/Card'
+import { Card } from '../components/Card/Card'
 import img1 from '../images/icon-work.svg'
 import img2 from '../images/icon-play.svg'
 import img3 from '../images/icon-study.svg'
