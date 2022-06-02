@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card } from '../UI/Card'
+import { Card } from '../components/UI/Card'
 import img1 from '../images/icon-work.svg'
 import img2 from '../images/icon-play.svg'
 import img3 from '../images/icon-study.svg'
@@ -13,8 +13,7 @@ export const MonthlyPage = () => {
          id: 1,
          title: 'Work',
          time: '168hrs',
-         recentActivity:
-            'Last monthly - 160hrs',
+         recentActivity: 'Last Month - 160hrs',
          img: img1,
          bgColor: 'hsl(15, 100%, 70%)'
       },
@@ -22,7 +21,7 @@ export const MonthlyPage = () => {
          id: 2,
          title: 'Play',
          time: '24hrs',
-         recentActivity: 'Last monthly - 28hrs',
+         recentActivity: 'Last Month - 28hrs',
          img: img2,
          bgColor: ' hsl(195, 74%, 62%)'
       },
@@ -30,7 +29,7 @@ export const MonthlyPage = () => {
          id: 3,
          title: 'Study',
          time: '20hrs',
-         recentActivity: 'Last monthly - 20hrs',
+         recentActivity: 'Last Month - 20hrs',
          img: img3,
          bgColor: 'hsl(348, 100%, 68%)'
       },
@@ -38,7 +37,7 @@ export const MonthlyPage = () => {
          id: 4,
          title: 'Exercise',
          time: '10hrs',
-         recentActivity: 'Last monthly - 12hrs',
+         recentActivity: 'Last Month - 12hrs',
          img: img4,
          bgColor: 'hsl(145, 58%, 55%)'
       },
@@ -46,7 +45,7 @@ export const MonthlyPage = () => {
          id: 5,
          title: 'Social',
          time: '5hrs',
-         recentActivity: 'Last monthly - 6hrs',
+         recentActivity: 'Last Month - 6hrs',
          img: img5,
          bgColor: 'hsl(264, 64%, 52%)'
       },
@@ -54,7 +53,7 @@ export const MonthlyPage = () => {
          id: 6,
          title: 'Self care',
          time: '10hrs',
-         recentActivity: 'Last monthly - 11hrs',
+         recentActivity: 'Last Month - 11hrs',
          img: img6,
          bgColor: 'hsl(43, 84%, 65%)'
       },
