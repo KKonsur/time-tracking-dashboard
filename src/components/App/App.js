@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 export const App = () => (
    <div className='container'>
       <main className="cardsContainer">
-         <Router>
+         <Router basename={process.env.PUBLIC_URL}>
             <ProfileCard />
             <CardsList />
          </Router>
