@@ -3,7 +3,7 @@ import './Card.css'
 import ellipsis from '../../images/icon-ellipsis.svg'
 
 export const Card = props => (
-   <div className='card' >
+   <section className='card' >
       <div className='card__image' style={{ backgroundColor: props.bgColor }}>
          <img src={props.img} alt="" />
       </div>
@@ -13,6 +13,6 @@ export const Card = props => (
          <p className='card__time'>{props.time}</p>
          <p className='card__recent'>{props.recentActivity}</p>
       </div>
-   </div>
+   </section>
 )
 
