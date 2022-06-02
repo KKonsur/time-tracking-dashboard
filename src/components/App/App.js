@@ -6,12 +6,12 @@ import { BrowserRouter as Router } from 'react-router-dom'
 
 export const App = () => (
    <div className='container'>
-      <div className="cardsContainer">
+      <main className="cardsContainer">
          <Router>
             <ProfileCard />
             <CardsList />
          </Router>
-      </div>
+      </main>
    </div>
 )
 
