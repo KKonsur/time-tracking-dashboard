@@ -9,7 +9,7 @@ export const Card = props => (
       </div>
       <div className='card__data'>
          <img src={ellipsis} alt="" />
-         <p className='card__title'>{props.title}</p>
+         <h2 className='card__title'>{props.title}</h2>
          <p className='card__time'>{props.time}</p>
          <p className='card__recent'>{props.recentActivity}</p>
       </div>
