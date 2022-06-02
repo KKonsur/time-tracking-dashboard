@@ -1,0 +1,78 @@
+.card {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+
+   &__image {
+      border-radius: 20px;
+      height: 80%;
+      display: flex;
+      justify-content: flex-end;
+      overflow: hidden;
+      position: absolute;
+      width: 100%;
+   }
+
+   &__image img {
+      position: absolute;
+      right: -10px;
+   }
+
+   &__data {
+      background-color: hsl(235, 46%, 20%);
+      margin-top: calc(6vh + 10px);
+      border-radius: 20px;
+      position: relative;
+      transition: 0.2s;
+      padding: 2vw;
+      display: flex;
+      height: 90%;
+      justify-content: space-between;
+      flex-direction: column;
+
+      &:hover {
+         background-color: hsl(235, 46%, 25%);
+      }
+
+      img {
+         position: absolute;
+         right: 2vw;
+         top: calc(2vw + 7px);
+
+         @media (max-width: 800px) {
+            position: absolute;
+            right: 4vw;
+            top: calc(6vw + 7px);
+         }
+      }
+
+      @media (max-width: 800px) {
+         padding: 6vw 4vw;
+      }
+   }
+
+   &__title {
+      font-size: 1rem;
+   }
+
+   &__time {
+      font-size: clamp(2rem, 4vw, 4rem);
+
+      @media (max-width: 800px) {
+         margin-top: 1.5rem;
+      }
+   }
+
+   &__recent {
+      font-size: 1rem;
+      margin-top: 1rem;
+      color: hsl(236, 100%, 87%);
+
+      @media (max-width: 800px) {
+         position: absolute;
+         bottom: 6vw;
+         right: 4vw;
+         margin-top: 0;
+      }
+   }
+}

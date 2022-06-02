@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css'
+import './App.scss'
 import { ProfileCard } from '../ProfileCard/ProfileCard'
 import { CardsList } from '../CardsList/CardsList'
 import { BrowserRouter as Router } from 'react-router-dom'

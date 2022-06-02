@@ -1,5 +1,5 @@
 import React from 'react'
-import './ProfileCard.css'
+import './ProfileCard.scss'
 import { Navigation } from '../Navigation/Navigation'
 import img from '../../images/image-jeremy.png'
 

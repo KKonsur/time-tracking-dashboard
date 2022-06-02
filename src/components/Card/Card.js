@@ -1,5 +1,5 @@
 import React from 'react'
-import './Card.css'
+import './Card.scss'
 import ellipsis from '../../images/icon-ellipsis.svg'
 
 export const Card = props => (
